@@ -30,7 +30,7 @@ import java.util.Properties;
 @ComponentScan("web")
 @PropertySource("classpath:hibernate.properties")
 @EnableTransactionManagement
-@EnableJpaRepositories("web.repositories")
+@EnableJpaRepositories("web.DAO")
 public class WebConfig implements WebMvcConfigurer {
 
     private final ApplicationContext applicationContext;

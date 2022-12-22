@@ -2,14 +2,14 @@ package web.DAO;
 
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import web.models.User;
 
 import javax.persistence.EntityManager;
 import java.util.List;
 
-@Component
+@Repository
 @Transactional
 public class UserDAO {
 
